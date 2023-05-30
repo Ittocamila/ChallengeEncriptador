@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <img class="logo" src="recursos/Frame 6.png" alt="Alura">
+        <h2 class="titulo-central">Bienvenidos al encriptador de texto</h2>
+    </header>
+
+    <main>
+    
+        <section>
+            <textarea class="txtArea" cols="80" rows="20" placeholder="Ingrese el texto a codificar..."></textarea>
+            <div class="botones">
+                <button class="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="txtArea2" cols="40" rows="20"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <p class="piePagina">&copy Elaborado por: Miguel Angel Arango y Camila Andrea Bolivar</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
